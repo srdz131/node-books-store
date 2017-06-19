@@ -5,14 +5,13 @@
   "author": "Srdjan Hrvacanin",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test"
   },
-  "engines":
-  {
-    "node":"7.8.0"
+  "engines": {
+    "node": "7.8.0"
   },
   "dependencies": {
     "adaro": "^0.1.10",
@@ -27,6 +26,7 @@
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "express-messages": "^1.0.1",
+    "grunt-copy-browser-modules": "^6.0.0",
     "kraken-js": "^2.0.0",
     "localizr": "^0.1.6",
     "mongodb": "^2.2.28",
