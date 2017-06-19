@@ -1,6 +1,6 @@
 {
   "name": "nodejsbooks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Application for selling books",
   "author": "Srdjan Hrvacanin",
   "main": "index.js",
@@ -8,6 +8,10 @@
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test"
+  },
+  "engines":
+  {
+    "node":"7.8.0"
   },
   "dependencies": {
     "adaro": "^0.1.10",
