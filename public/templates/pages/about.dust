@@ -1,0 +1,14 @@
+{>"layouts/master"/}
+{<title}
+  About NODEJSBOOKS
+{/title}
+{< body}
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>About us</h2>
+        <p>This is a BookStore website made with NodeJS, Kraken framework and Foundation css framework. Purpose of this website is practice and learning.
+         Real purchase of books via PayPal is not supported ,but it uses their purchase form and technology beneath it.</p>
+         <p>Website is made by Srdjan Hrvacanin, feel free to contact me at this email: shrvacanin@gmail.com .</p>
+      </div>
+    </div>
+{/body}

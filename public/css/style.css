@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'PoiretOne';
+  src:url('/fonts/PoiretOne-Regular.ttf');
+}
+@font-face {
+  font-family:'Forum',serif;
+  src:url('/fonts/Forum-Regular.ttf');
+}
+.hero-section{
+  height: 30vh;
+  background: black;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero-section-text{
+  text-align: center;
+}
+.hero-section img{
+  width: 50px;
+  height: 50px;
+}
+h1{
+    font-family: 'PoiretOne';
+    color:white;
+}
+
+.top-bar {
+  margin-bottom: 20px;
+}
+.menu a{
+  color: black;
+  font-family: 'PoiretOne';
+  font-weight: bolder;
+}
+.menu a:hover{
+  background: black;
+  color:white;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+}
+.book{
+  text-align: center;
+  font-family: 'Forum';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book ul{
+  flex-grow: 1
+}
+.book:hover{
+  background: #e6e6e6;
+}
+.book h4{
+  margin-top: 15px;
+}
+.book a{
+  background: black;
+  color: white;
+}
+.price{
+  margin: 5px;
+  font-size:20px;
+}
+.price span{
+  color:green;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+}
+.book ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biggerCont{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.insideBiggerCont{
+  flex-grow:1
+}
+.buttonContainer{
+  margin-top: 15px;
+}
+.buttonContainer ul{
+  margin-left: 0px;
+}
+
+footer{
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  background: #e6e6e6;
+}
+footer a{
+  color:black;
+}
+[class*='column'] + [class*='column']:last-child{
+  float: left;
+}
+ul.success li, ul.info li, ul.error li {
+  padding: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border:1px solid transparent;
+  border-radius: 5px;
+  list-style: none;
+}
+ul.success li{
+  background: #97D38D;
+  color: #0A4600;
+  border-color: #0A4600;
+}
+ul.info li{
+  background: #5C8DAA;
+  color: #245D7F;
+  border-color: #245D7F;
+}
+ul.error li{
+  background: #FDCFD3;
+  color: #C02E3C;
+  border-color: #C02E3C;
+}

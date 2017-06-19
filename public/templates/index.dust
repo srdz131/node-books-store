@@ -1,0 +1,30 @@
+{>"layouts/master" /}
+
+{<body}
+    {#books}
+    <div class ='large-3 columns book ' data-equalizer-watch>
+      <img src='{.cover}'/>
+      <ul>
+        <div class="biggerCont">
+          <div class="insideBiggerCont">
+            <h4 id='indexTitle' class='inBox'>{.title}</h4>
+            <p class='inBox'>{.truncText}</p>
+          </div>
+          <div class="priceContainer">
+            <div class='price inBox'>Buy it for <span>{.price}</span></div>
+          </div>
+        </div>
+        <br>
+        <div class="buttonContainer">
+          <ul class='cta-button thebutton'>
+            <a href='/books/details/{._id}' class='button'>Book details</a>
+          </ul>
+        </div>
+
+      </ul>
+
+
+
+    </div>
+    {/books}
+{/body}
