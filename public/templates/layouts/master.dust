@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 columns " data-equalizer>
+          <div class="large-12 columns " data-equalizer data-equalize-by-row="true">
               {messages|s}
               {+body /}
           </div>
