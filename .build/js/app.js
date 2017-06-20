@@ -1,1 +1,1 @@
-$(document).foundation(),define("app",function(){});
+define("app",function(){});
