@@ -1,7 +1,9 @@
 'use strict';
 
+var compression = require('compression');
 var express = require('express');
 var kraken = require('kraken-js');
+var helmet = require('helmet');
 var flash = require('connect-flash');
 var db = require('./lib/db');
 
@@ -24,9 +26,10 @@ options = {
 };
 
 app = module.exports = express();
+app.use(compression())
 app.use(kraken(options));
 
-
+app.use(helmet());
 app.use(flash());
 app.use(function (req, res, next) {
     var messages = require('express-messages')(req, res);
